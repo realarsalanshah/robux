@@ -2,19 +2,19 @@ const messages = [
     "Are you sure?",
     "Really sure??",
     "Are you positive?",
-    "please...",
-    "Just think about it!",
+    "Seriously",
+    "think about it",
     "If you say no, I will be really sad...",
-    "I will be very sad...",
-    "I will be very very very sad...",
-    "Ok fine, I will stop asking...",
-    "Just kidding, say yes please! ❤️",
+    "what if i meow for you ",
+    "Fuck",
+    "pleasee",
+    "Goodnight!",
     "please....",
-    "PLEASSEEEEEE...",
-    "IMAGINE WHAT WE COULD BE TOGETHERRR", 
-    "PLEEEEEEEAASSEEEEE",
-    "I'M NOT STOPPINGGGGGGGG",
-    "THATS IT-"
+    "actually fuck you",
+    "please lemme eyp", 
+    "I want it",
+    "I'm telling you I want it",
+    "I said it want it."
 ];
 
 let messageIndex = 0;
@@ -29,7 +29,7 @@ function handleNoClick() {
         const currentSize = parseFloat(window.getComputedStyle(yesButton).fontSize);
         yesButton.style.fontSize = `${currentSize * 1.5}px`;
     } else {
-        noButton.textContent = "You can't say no anymore! >:D";
+        noButton.textContent = "Fuck you";
         noButton.disabled = true; // Make the No button unclickable
         noButton.style.opacity = "0.5"; // Optional: Reduce opacity to indicate it's disabled
         noButton.style.cursor = "not-allowed"; // Optional: Change cursor style
