@@ -31,7 +31,7 @@ function handleNoClick() {
     } else {
         noButton.textContent = "Fuck you";
         noButton.disabled = true; // Make the No button unclickable
-        noButton.style.opacity = "0.5"; // Optional: Reduce opacity to indicate it's disabled
+        noButton.style.opacity = "1"; // Optional: Reduce opacity to indicate it's disabled
         noButton.style.cursor = "not-allowed"; // Optional: Change cursor style
     }
 }
